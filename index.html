@@ -59,12 +59,12 @@
       <div class="container">
         <!-- row -->
         <div class="row">
-          <h2 class="page-header">О вашем продукте<br><small>книга, программа, игра, курс...</small></h2>
+          <h2 class="page-header">О москитных сетках</h2>
           <div class="col-md-4"><div class="main-img"><img src="img/box.jpg" class="img-responsive" alt=""></div></div>
           <div class="col-md-8 col-xs-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatem distinctio necessitatibus, culpa fugit eveniet provident quam. Dolore dicta eos veniam placeat, vel nisi voluptas cumque illo. Est, omnis, quae!</p>
-              <p>Architecto impedit expedita eum perspiciatis beatae autem eveniet dicta dolorem voluptates commodi error obcaecati ea dignissimos sint sequi, placeat eligendi qui deserunt et repellendus, <a href="">itaque voluptas nihil totam deleniti velit</a>.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatem distinctio necessitatibus, culpa fugit eveniet provident quam. Dolore dicta eos veniam placeat, vel nisi voluptas cumque illo. Est, omnis, quae!</p>
+              <p>Современные москитные сетки практичнее, легче в установке и удобнее в эксплуатации. </p>
+              <p>Москитные сетки могут различаться по конструкции. Но наиболее оптимальным вариантом являются сетки рамочного типа, которые кроме своих явных преимуществ, еще и поддаются ремонту. </p>
+              <p>Рамочный вид сетки – это легкая конструкция, весьма прочная и надежная в эксплуатации. Она представляет из себя тонкую рамку из алюминия, покрытого защитным полимером, в которую вставлена сетка. Используемые в этой конструкции сетки – это полимерное стекловолокно, очень прочный и долговечный материал, перфорированный очень частыми мельчайшими отверстиями. В окне такая москитная сетка почти незаметна, ее серый цвет не бросается в глаза, она не перекрывает поступление в помещение воздуха и солнечного света. Рамочная конструкция сетки быстро и легко прикрепляется к окну снаружи, с помощью специальных пазов держателя. За ними легко ухаживать, достаточно протереть влажной тряпкой, чтобы смыть копоть и пыль.</p>
           </div>
         </div>
       </div>
@@ -169,7 +169,7 @@
                 <blockquote>
                   Раньше сетку заказал в цеху. Сам поехал туда, сам замеры сделал, сам привез, сам установил вообщем не удобно, а так просто заказал и оплатил и все, деньги и время сэкономил.
                 </blockquote>
-                <p class="text-muted">Алихан Рустамов.</p>
+                <p class="text-muted">Алихан Рустамов</p>
               </div>
             </div>
           </div>
@@ -181,24 +181,13 @@
                 <blockquote>
                   Доставка на запланированное время.Всё нормально.Будет возможность ещё заказу.Рабочие молодцы.
                 </blockquote>
-                <p class="text-muted">.</p>
+                <p class="text-muted">Мага Мага</p>
               </div>
             </div>
           </div>
         </div>
         <!-- row -->
         <div class="row">
-          <div class="col-md-6">
-            <div class="review-item">
-              <div class="pull-left ava"><img src="img/img3.jpg" alt=""></div>
-              <div class="review-body">
-                <blockquote>
-                  а другие цвета бывают?
-                </blockquote>
-                <p class="text-muted">Мага Мага.</p>
-              </div>
-            </div>
-          </div>
 		  <div class="col-md-6">
             <div class="review-item">
               <div class="pull-left ava"><img src="img/img3.jpg" alt=""></div>
@@ -206,7 +195,7 @@
                 <blockquote>
                   Цена хорошая, не поднимайте)))
                 </blockquote>
-                <p class="text-muted">Имя Фамилия.</p>
+                <p class="text-muted">Имя Фамилия</p>
               </div>
             </div>
           </div>
@@ -217,7 +206,7 @@
                 <blockquote>
                   Сказали что приедут через день, а приехали через два дня.В остальном все нормально.
                 </blockquote>
-                <p class="text-muted">Аслан Адамов.</p>
+                <p class="text-muted">Аслан Адамов</p>
               </div>
             </div>
           </div>
@@ -322,19 +311,26 @@
           <p class="lead">Если у вас возникли вопросы, то вы сможете задать их, заполнив форму ниже, или воспользовавшись контактами ниже.</p>
           <div class="col-md-6 col-md-offset-3 col-xs-12 col-sm-12">
             <!-- Contacts form -->
-            <form role="form" class="contacts-form">
+            <form role="form" class="contacts-form" action method="post" id="feedback">
               <div class="form-group">
-                <input id="name" type="text" class="form-control" placeholder="Ваше имя:">
-              </div>
-              <div class="form-group">
-                <input id="email" type="email" class="form-control" placeholder="Ваш email:">
-              </div>
-              <div class="form-group">
-                <textarea id="message" class="form-control" rows="5" placeholder="Ваше сообщение:"></textarea>
-              </div>
-              <div class="form-group">
-                <button id="btn" class="btn btn-default" type="submit">Отправить</button>
-              </div>
+                 <label>Имя <small>*</small></label>
+                 <input type="text" required name="name" required value="" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Почта <small>*</small></label>
+                <input type="email" required name="email" value="" class="form-control">
+           </div>
+           <div class="form-group">
+                <label>Тема <small>*</small></label>
+                <input type="text" required name="subject" value="" class="form-control">
+  </div>
+  <div class="form-group">
+    <label>Сообщение</label>
+    <textarea name="text" required class="form-control" rows="6"></textarea>
+  </div>
+  <div class="form-group">
+    <input type="submit" name="submit" value="Отправить"  class="btn btn-success" />
+  </div>
             </form>
             <br>
             <!-- Address -->
